@@ -1,0 +1,259 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .body{
+    width: 100%;
+  }
+  .container1{
+    background-image:url(./image/BG.png);
+    height: 918px;
+    width:100%;
+    margin-top:24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+ .brain {
+    width: 100%;
+    height: 34px;
+    top: 24px;
+    left: 25px; 
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wave{
+  font-size: medium;
+  font-weight: bold;
+}
+.menu{
+    display: flex;
+    gap: 29px;
+}
+.process{
+  width: 585px;
+  height: 250px;
+  flex-wrap: wraf;
+  font-size: 30px;
+}
+.we{
+  width: 100%;
+  height: 195;
+  font-size: 60px;
+}
+.container2{
+  position: relative;
+  bottom: 150px;
+}
+.frame1{
+  width: 1110px;
+  height: 406px;
+  margin: auto;
+  /* background-color: darkslategrey; */
+  display: flex;
+  gap: 30px;
+  margin-bottom: 27px;
+}
+.box1{
+  width:350px;
+  height: 406px;
+  background-color: lavender;
+  /* position: absolute; */
+  font-size: 29px;
+  color: darkgray;
+  border-radius: 10px;
+}
+.living{
+  font-size:34px;
+  color: black;
+  margin-left: 43px;
+  margin-top: 33px;
+}
+.box1 p{ 
+  margin-left: 43px;
+  padding-top: 6px;
+}
+.sofa{
+  width: 157px;
+  height:204px;
+  margin-top: 50px;
+  margin-left: 99px;
+}
+.container3{
+  width: 1110px;
+  height: 1160px;
+  /* background-color: aquamarine; */
+  margin: auto;
+  position: relative;
+  bottom: 80px;
+}
+
+.product{
+  font-size: 44px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+.product-add{
+  width: 100%;
+  height: 423px;
+  /* background-color: blue; */
+  display: flex;
+  gap: 30px;
+  margin-bottom: 74px;
+}
+.pro-add{
+  width: 255px;
+  height: 100%;
+  /* background-color: darkred; */
+}
+.cart{
+  width: 255px;
+  height: 300px;
+  background-color: lavender;
+  border-radius: 10px;
+}
+.chair{
+  margin-top: 68px;
+  margin-left: 44px;
+}
+.add{
+  width: 165px;
+  height: 45px;
+  background-color: blue;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+  bottom: 50px;
+  padding-top: 10px;
+}
+.price::before{
+  content: "$899";
+  color: green;
+  font-size: 29px;
+}
+.une{
+  position: relative;
+  left: 60px;
+  top: 15px;
+}
+.couture{
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 5px;
+  position: relative;
+  right: 25px;
+}
+.price1{
+  color: green;
+  position: relative;
+  font-size: 20px;
+  left: 30px;
+}
+.fair{
+  position: relative;
+  top: 10px;
+}
+.container4{
+  width: 1570px;
+  height: 770px;
+  background-color:blue;
+  border-radius: 10px;
+  margin-bottom: 17px;
+}
+.photo{
+  width: 401px;
+  height: 482px;
+  position: relative;
+  left: 230px;
+  top: 140px;
+}
+.track-site{
+  width: 410px;
+  height: 280px;
+  position: relative;
+  left: 850px;
+  bottom: 241px;
+  color: white;
+  /* background-color: azure; */
+}
+.track{
+  font-size: 36px;
+  font-weight: bold;
+}
+.we{
+  font-size: 19px;
+  opacity: 65%;
+  padding-top: 21px;
+}
+.start{
+  font-size: 25px;
+  padding-top: 35px;
+}
+.image{
+  position: relative;
+  left: 990px;
+  top: 154px;
+}
+.container5{
+  background-color: #161C2D;
+}
+.omg{
+  width: 540px;
+  height: 389px;
+  /* background-color: chocolate; */
+  position: relative;
+  left: 230px;
+  bottom: 250px;
+}
+.format{
+  width: 43px;
+  height:31px;
+  position:absolute;
+}
+.stars{
+  position: absolute;
+  top: 150px;
+}
+.coment{
+  position: relative;
+  top: 230px;
+  font-size: 24px;
+  color: white;
+}
+.container6{
+  background-color: azure;
+  background-image:url(./image/BG2.png);
+}
+.ready{
+  width: 585px;
+  height: 237px;
+  /* background-color: blanchedalmond; */
+  position: relative;
+  left: 492px;
+  top: 278px;
+  text-align: center;
+  color: white;
+}
+
+.decor{
+  font-size: 60px;
+}
+.shopping{
+  width: 200px;
+  height: 39px;
+  border-radius: 5px;
+  background-color:lightgreen;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 8px;
+  position: absolute;
+  left: 180px;
+  top: 195px;
+  color: black;
+}
