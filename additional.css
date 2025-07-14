@@ -11,11 +11,12 @@
     background-image:url(./image/BG.png);
     height: 918px;
     width:100%;
-    margin-top:24px;
+    margin-top:2px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
+    border-radius: 10px;
   }
  .brain {
     width: 100%;
@@ -26,14 +27,18 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px;
 }
 .wave{
   font-size: medium;
   font-weight: bold;
+  margin-left: 20px;
+  font-size: 30px;
 }
 .menu{
     display: flex;
     gap: 29px;
+    font-size: large;
 }
 .process{
   width: 585px;
@@ -160,7 +165,6 @@
   top: 10px;
 }
 .container4{
-  width: 1570px;
   height: 770px;
   background-color:blue;
   border-radius: 10px;
@@ -240,7 +244,6 @@
   text-align: center;
   color: white;
 }
-
 .decor{
   font-size: 60px;
 }
